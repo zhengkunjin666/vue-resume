@@ -1,70 +1,77 @@
 <template>
   <div class="home-page">
     <div class="user-section">
-      <el-row :gutter="40">
-        <el-col :lg="12">
-          <div class="grid-content">
-            <h3 class="sub-title">能力简介</h3>
-            <ul class="user-power">
-              <li>
-                1、熟练使用
-                HTML、CSS、JavaScript，能高效率还原设计稿、动画及业务逻辑交互。
-              </li>
-              <li>2、掌握使用前端框架，jQuery、 Vue、Element Ui。</li>
-              <li>3、熟悉移动端开发，能兼容移动版H5、微信小程序移动版产品。</li>
-              <li>4、熟悉前端工程化搭建、webpack、Glup、Git。</li>
-              <li>
-                5、熟悉后端 Node.js，能操作
-                Express、Koa能快速启动项目、独立敏捷开发。
-              </li>
-              <li>
-                6、在学校踏踏实实敲了几年代码，善于解决问题，对技术有深厚兴趣，爱折腾。
-              </li>
-            </ul>
-          </div>
-        </el-col>
-        <el-col :lg="12">
-          <div class="grid-content">
-            <h3 class="sub-title">技能清单</h3>
-            <ul class="user-power">
-              <li>
-                Web开发：
-                <el-tag size="small">HTML</el-tag>
-                <el-tag size="small">CSS</el-tag>
-                <el-tag size="small" type="danger">JavaScript</el-tag>
-              </li>
-              <li>
-                Web框架：
-                <el-tag size="small" type="danger">Node.js</el-tag>
-                <el-tag size="small">Express</el-tag>
-                <el-tag size="small">Koa2</el-tag>
-              </li>
-              <li>
-                前端框架：
-                <el-tag size="small">jQuery</el-tag>
-                <el-tag size="small" type="danger">Vue.js</el-tag>
-                <el-tag size="small">Element UI</el-tag>
-                <el-tag size="small" type="danger">微信小程序</el-tag>
-              </li>
-              <li>
-                前端工具：
-                <el-tag size="small">Webpack</el-tag>
-                <el-tag size="small">Gulp</el-tag>
-                <el-tag size="small">Vue CLI3</el-tag>
-              </li>
-              <li>
-                数据存储：
-                <el-tag size="small">MySQL</el-tag>
-              </li>
-              <li>
-                版本管理：
-                <el-tag size="small">Git</el-tag>
-                <el-tag size="small">Github</el-tag>
-              </li>
-            </ul>
-          </div>
-        </el-col>
-      </el-row>
+      <!-- <el-row :gutter="40">
+        <el-col :lg="15"> -->
+      <div class="grid-content">
+        <h3 class="sub-title">能力简介</h3>
+        <ul class="user-power">
+          <li>
+            1、精通 HTML、 CSS 、JavaScript ，能高效 1 ：1
+            还原设计稿及业务交互。
+          </li>
+          <li>
+            2、掌握 Vue、Ant Design Vue、Element、微信小程序等前端基础框架技术。
+          </li>
+          <li>
+            3、熟悉 Webpack、Gulp、Vue CLI3、Vite
+            等工程化工具，能独立搭建调配项目。
+          </li>
+          <li>4、熟悉 Git、Github 等流程工具，能迅速融入团队立刻上手开发。</li>
+          <li>
+            5、在学习时有做笔记的习惯，善于解决问题，对技术有深厚兴趣，爱折腾。<br />
+            （笔记链接：<a
+              target="_blank"
+              href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
+              >https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd</a
+            >）
+          </li>
+        </ul>
+      </div>
+      <!-- </el-col>
+        <el-col :lg="12"> -->
+      <div class="grid-content">
+        <h3 class="sub-title">技能清单</h3>
+        <ul class="user-power">
+          <li>
+            Web开发：
+            <el-tag size="small">HTML</el-tag>
+            <el-tag size="small">CSS</el-tag>
+            <el-tag size="small" type="danger">JavaScript</el-tag>
+          </li>
+          <li>
+            Web框架：
+            <el-tag size="small" type="danger">Node.js</el-tag>
+            <el-tag size="small">Express</el-tag>
+            <el-tag size="small">Koa</el-tag>
+          </li>
+          <li>
+            前端框架：
+            <el-tag size="small" type="danger">Vue.js</el-tag>
+            <el-tag size="small">Ant Design Vue</el-tag>
+            <el-tag size="small">Element UI</el-tag>
+            <el-tag size="small" type="danger">微信小程序</el-tag>
+          </li>
+          <li>
+            前端工具：
+            <el-tag size="small">Webpack</el-tag>
+            <el-tag size="small">Gulp</el-tag>
+            <el-tag size="small">Vue CLI3</el-tag>
+            <el-tag size="small">Vite</el-tag>
+          </li>
+          <li>
+            数据存储：
+            <el-tag size="small">MySQL</el-tag>
+          </li>
+          <li>
+            版本管理：
+            <el-tag size="small">Git</el-tag>
+            <el-tag size="small">Github</el-tag>
+          </li>
+        </ul>
+      </div>
+      <!-- </el-col>
+      </el-row> -->
     </div>
     <div class="work-section">
       <h3 class="sub-title">项目经验</h3>
@@ -72,141 +79,174 @@
         <el-timeline>
           <el-timeline-item
             type="success"
-            timestamp="2019.3 ～ 2019.5 极客学院 - 前端助教，负责教研方案执行和配合导师对就业班学员进行技术答疑。"
+            timestamp="在扎克斯科技（ 广州）有限公司时期负责项目。"
             placement="top"
           >
-            <el-row :gutter="40">
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">
-                      信息发布系统（ 极客学院教研项目）
-                    </h4>
-                    <p class="card-text">
-                      <span>项目描述：</span
-                      >极客学院的信息发布系统，通过后台配置的内容在前台中进行展示，支撑企业的信息发布和信息管理，运营人员会定期发布极客学院的新的动态及技术内容帮助大家及时的掌握前沿技术动态，更好的学习规划。为此需要一套信息管理发布系统来方便对他的内容进行发布、修改、删帖和分类等。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span>通过本项目，对 Node.js API
-                      有更深入的了解，接下来可以完成 80% 的内容 API 设计。同时对
-                      Vue 、Vue-router 及 Element-Ui
-                      有实战行的应用。在技术点上还涉及到 Vue-CLI 和其他后端框架
-                      Express 的融合。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">
-                      销售管理系统（ 极客学院教研项目）
-                    </h4>
-                    <p class="card-text">
-                      <span>项目描述：</span
-                      >企业吸引更多的消费者，和广告公司合作做出各类精良的营销落地页，并在各个社交、媒体平台中进行投放。为了更好地获取广告信息，指导投放营销，需要一套承接这类营销落地页收集用户的购买行为信息，并进行跟踪、统计、反馈的管理系统。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span>通过本项目，在 Node.js 环境中使用
-                      Express 快速搭建服务框架，并熟悉简单的 MySQL
-                      数据库操作，可以完成数据的增删改查以及连表查询数据。同时，我们还对后端中
-                      MVC
-                      有深入的了解和实际的运用，懂得了在一个项目中数据是如何从数据库渲染到页面，页面是如何与服务端进行交互从而影响数据的变化。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-            </el-row>
+            <!-- <el-row :gutter="40">
+              <el-col :lg="12"> -->
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">
+                  中国移动数智化平台（<a
+                    target="_blank"
+                    href="https://hongru.jiker.vip/"
+                    >https://hongru.jiker.vip/</a
+                  >
+                  测试环境 ）
+                </h4>
+                <p class="card-text">
+                  <span>项目描述：</span
+                  >项目致力于为中国移动打造国内一流的数智化转型咨询机构及协作平台，涵盖中国移动及行业合作伙伴的数字化转型专家库，实现需求与人才的高效匹配及调用。产品主要特点为可视化的人才建设信息化工作成果的展示，能给客户导入更先进的人才系统平台理念。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、真正意义的个人独立负责项目，从零初始化搭建到项目部署。<br />
+                  2、在重构中沉淀的 Vue3.0、Vite 方案很好的运用在新项目中。<br />
+                  3、在项目中熟练使用 Ant Design Vue UI组件、Apache ECharts
+                  可视化图表库。<br />
+                  4、需求持续变更的过程中持续响应，保证项目按期上线交付。
+                </p>
+              </el-card>
+            </div>
+            <!-- </el-col>
+              <el-col :lg="12"> -->
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">
+                  AitSchool 在线教育平台 （<a
+                    target="_blank"
+                    href="https://www.aitschool.com"
+                    >https://www.aitschool.com</a
+                  >
+                  正式环境 ）
+                </h4>
+                <p class="card-text">
+                  <span>项目描述：</span>项目为 IT
+                  技术互联网职业在线学习平台，包含海量的视频课程、图文项目，为学校提供学习、竞赛培训等在线服务业务。平台包含用户前台、学习中台、管理后台、微信小程序等平台开发，本次项目是在原来
+                  Vue2.0 基础上对前台、中台、后台进行 Vue3.0 、Vite、Pinia
+                  的重构和升级。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、项目中使用 Vue3.0 Composition API、Vite、Pinia 、Element
+                  Plus 新一代的 Vue 生态重构项目，替换 Option API、Vue
+                  Cli3、Vuex 等 Vue2.0 组件。<br />
+                  2、通过重构登录项目，掌握 SSO
+                  单点登录相关知识，利用二级域名中的项目可以访问根域的 cookie
+                  实现，实现微信、手机号登录模式的动态切换，掌握微信登录 oauth
+                  相关流程。<br />
+                  3、通过重构主站前台项目，实现视频课、技能测评核心业务模块的前端交互。通过重构学习中台项目，掌握音视频的基本
+                  API 实现按上次记录播放，拖拽、暂停、按频发送播放记录。<br />
+                  4、通过重构管理后台项目，掌握标准化的管理后台布局
+                  UI、高扩展性路由精细化权限设计，能高效完成后台各业务数据的表格查看、表单编辑、删除确认业务逻辑。
+                </p>
+              </el-card>
+            </div>
+            <!-- </el-col>
+              <el-col :lg="12"> -->
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">
+                  极客学院落地页开发
+                </h4>
+                <p class="card-text">
+                  <span>项目描述：</span>Toppro
+                  、优课云坊、官网、营销页、活动页、专题页。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、Toppro 静态官网 V1 开发：<a
+                    target="_blank"
+                    href="https://www.topproio.com/"
+                    >https://www.topproio.com/</a
+                  >
+                  上线。( 目前已迭代 V2 )<br />
+                  2、Youked 静态官网 V1 开发：<a
+                    target="_blank"
+                    href="https://www.youked.com/"
+                    >https://www.youked.com/</a
+                  >
+                  上线。<br />
+                  3、极客学院专题页开发：<a
+                    target="_blank"
+                    href="https://zt.jikexueyuan.com/qualcomm"
+                    >https://zt.jikexueyuan.com/qualcomm</a
+                  >
+                  上线。<br />
+                  4、极客学院匠心大赏活动页开发 。（ 已下线 ）<br />
+                  5、通过一些列的 H5 静态页面开发具备快速 1:1
+                  高效还原设计稿的能力。<br />
+                  6、独立完成多图轮播，留言板留言拖拽等功能，对 JavaScript DOM
+                  和 BOM 有深入探索。
+                </p>
+              </el-card>
+            </div>
+            <!-- </el-col>
+            </el-row> -->
           </el-timeline-item>
           <el-timeline-item
             type="success"
-            timestamp="2018.8～ 2019.3 扎克斯科技 - 前端研发，负责项目营销活动页和专题页等展示型网页开发。"
+            timestamp="在惠州市玛丝菲尔时装制造有限公司时期负责项目。"
             placement="top"
           >
-            <el-row :gutter="40">
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">
-                      目标与成就管理系统（ 扎克斯外包项目 ）
-                    </h4>
-                    <p class="card-text">
-                      <span>项目描述：</span>OKR
-                      为探月学院内部研发的目标管理的系统，能够将目标管理自上而下贯穿到基层。通过要设定一个“目标”（Objective），然后，设定若干可以量化的“关键结果”（Key
-                      Results），用来帮助实现目标。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span>通过本项目首先对 OKR
-                      有一个初步的认识，之前没有丁点概念，也熟悉企业的管理机制。在项目中使用
-                      Koa2 来构建简易的 API，对 Nodejs API
-                      的生产有更熟悉的运用，同时对小程序开发有一定的了解，能够完成负责业务场景下的小程序研发工作。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">营销活动页开发（扎克斯外包项目）</h4>
-                    <p class="card-text">
-                      <span>项目描述：</span
-                      >完成营销、活动、专题项目的样式和交互，服务过的公司有：Toppro、极客学院、高通等等，主要使用
-                      HTML、CSS、JavaScript 完成页面样式和交互开发。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span
-                      >通过多个项目的训练，对设计稿的还原度以及交付效率有质的提升，能给高效、快速地
-                      1 : 1还原设计文件，同时 JavaScript
-                      的语感提升为之后的多页面项目研发打下基础。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-            </el-row>
+            <!-- <el-row :gutter="40">
+              <el-col :lg="12"> -->
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">
+                  玛丝菲尔 CRM 客户管理系统
+                </h4>
+                <p class="card-text">
+                  <span>项目描述：</span>
+                  玛丝菲尔和广告公司合作做出了各类精良的营销落地页，并在各个社交、媒体平台中进行投放。为了更好地获取广告信息，指导投放营销，需要一套管理系统来承接这类营销落地页，用来收集用户的购买行为信息，并进行跟踪、统计、和反馈。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、使用 Node.js 中 Express 框架快速搭建 Web 框架。<br />
+                  2、在 nunjucks 模版中直接书写HTML结构，通过打包工具 Gulp 处理
+                  CSS
+                  变量和嵌套、JavaScript的转译，以及代码检查和优化、添加后缀等等。<br />
+                  3、后台数据库采用 Navicat for
+                  MySQL软件，建立了用户表、线索表、记录表等。<br />
+                  4、完成了对落地页收集回来的用户信息，进行跟踪、统计、反馈的管理系统。
+                </p>
+              </el-card>
+            </div>
+            <!-- </el-col>
+            </el-row> -->
           </el-timeline-item>
           <el-timeline-item
             type="success"
-            timestamp="2015.9～ 2019.6 华商学院 - 信息工程系，专攻网站开发。"
+            timestamp="个人研究的项目。"
             placement="top"
           >
-            <el-row :gutter="40">
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">
-                      微信小程序音视频云开发（ 个人项目 ）
-                    </h4>
-                    <p class="card-text">
-                      <span>项目描述：</span
-                      >使用云开发音视频小程序，在腾讯云平台上对小程序的数据进行存储与操作，仿照微信朋友圈，完成文字、音视频的发布与评论功能。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span
-                      >对微信小程序开发中云函数、云存储、云数据库集合的有进一步的了解，同时给我带来最大的影响是，前端在构建自己独立的项目时候，不需要依赖后端的接口来实现数据的获取和存储，或者一直在测试着自己的本地的假数据，可以独立完成项目开发。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-              <el-col :lg="12">
-                <div class="grid-content">
-                  <el-card>
-                    <h4 class="card-title">技术单词记忆小程序（个人项目）</h4>
-                    <p class="card-text">
-                      <span>项目描述：</span
-                      >在我刚刚开始接触开发时候，经常遇到很多技术上的专业词汇，就萌生出一个想法，开发一个便利于大家记忆和管理的应用。在实现这个想法中，使用微信小程序作为前端展示的承载，使用
-                      Vue 配合 Element Ui 开发后台，使用 Node.js Koa2 完成操作
-                      MySQL
-                      数据的接口。最终实现一个数据的后台管理系统，并且在微信小程序上展示管理后数据。
-                    </p>
-                    <p class="card-text">
-                      <span>项目成就：</span
-                      >通过技术实现自己的想法，并且对微信小程序、Vue 中台和
-                      Node.js 有综合的应用，感受到技术学习与应用带来的成就感。
-                    </p>
-                  </el-card>
-                </div>
-              </el-col>
-            </el-row>
+            <!-- <el-row :gutter="40">
+              <el-col :lg="12"> -->
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">
+                  微信小程序云开发 - OKR、云微博（ 个人开源项目 ）
+                </h4>
+                <p class="card-text">
+                  <span>项目描述：</span>OKR
+                  为公司内部使用的目标管理的系统，将目标管理自上而下贯穿到基层。通过要设定一个目标，然后设定若干可以量化的关键结果，用来帮助实现目标。给予
+                  OKR 的理解，实现个人版的云 OKR
+                  ，以便于对个人目标的聚焦同时对新技术的研究。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、对小程序开发有一定的了解，能够完成负责业务场景下的小程序研发工作。<br />
+                  2、在第一版本项目中使用 Express、knex 来构建简易的 API，对
+                  Node.js 与 MySQL 数据库更熟悉的运用。<br />
+                  3、在第二版中开始对 Koa 框架进行学习，并对升级到个人 OKR
+                  的开源应用中。<br />
+                  4、在第三版中对通过对微信小程序云开发的学习，对 Serverless
+                  云函数有一定的了解与掌握，并构建项目进行想法落地。
+                </p>
+              </el-card>
+            </div>
+            <!-- </el-col>
+            </el-row> -->
           </el-timeline-item>
         </el-timeline>
       </div>

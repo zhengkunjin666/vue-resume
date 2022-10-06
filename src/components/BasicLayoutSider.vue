@@ -1,10 +1,10 @@
 <template>
   <el-aside class="page-sider">
     <div class="user-info">
-      <div class="user-avatar">
+      <!-- <div class="user-avatar">
         <img class="user-avatar-png" src="@/assets/avatar.jpg" />
-      </div>
-      <p class="user-name">林熙</p>
+      </div> -->
+      <p class="user-name">郑坤锦</p>
       <p class="user-status">Born to Code</p>
     </div>
     <div class="user-info">
@@ -15,7 +15,7 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-present"></i>
-        <span>出生年月：1996.07.14（广州）</span>
+        <span>出生年月：1996.11.29（汕头）</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-position"></i>
@@ -23,7 +23,7 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-mobile-phone"></i>
-        <span>联系方式：13511111111</span>
+        <span>联系方式：13794567550</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-wind-power"></i>
@@ -35,14 +35,18 @@
       </div>
     </div>
     <div class="user-info">
-      <div class="user-info-title">实习经历</div>
+      <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
-        <i class="el-icon-office-building"></i>
-        <span>2019 极客学院 - 前端助教</span>
+        <p><i class="el-icon-office-building"></i>最近一段工作经历</p>
+        <p>时间：2020/5 ～ 至今</p>
+        <p>公司：扎克斯科技（ 广州）有限公司</p>
+        <p>岗位：前端研发工程师</p>
       </div>
       <div class="user-info-text">
-        <i class="el-icon-office-building"></i>
-        <span>2018 扎克斯科技 - 前端实习</span>
+        <p><i class="el-icon-office-building"></i>第一段工作经历</p>
+        <p>时间：2019/5 至 2020/5</p>
+        <p>公司：惠州市玛丝菲尔时装制造有限公司</p>
+        <p>岗位：管理培训生</p>
       </div>
     </div>
   </el-aside>
@@ -60,7 +64,7 @@ export default {
   position: relative;
   box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
   transition: all 0.2s ease;
-  width: 240px;
+  width: 350px !important;
   color: #fff;
   padding: 40px;
   padding-top: 20px;
@@ -87,10 +91,8 @@ export default {
     .user-avatar-png {
       display: block;
       width: 110px;
-      height: 110px;
       margin: 0 auto 20px;
       box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
-      border-radius: 50%;
       background-color: #fff;
     }
   }
