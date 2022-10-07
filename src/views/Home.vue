@@ -24,11 +24,11 @@
           </li>
           <li>
             6、在学习时有做笔记的习惯，善于解决问题，对技术有深厚兴趣，爱折腾。<br />
-            （笔记链接：<a
+            笔记链接：<a
               target="_blank"
               href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
               >https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd</a
-            >）
+            >
           </li>
         </ul>
       </div>
@@ -198,11 +198,11 @@
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
-                  玛丝菲尔 CRM 客户管理系统
+                  CRM 客户管理系统
                 </h4>
                 <p class="card-text">
                   <span>项目描述：</span>
-                  玛丝菲尔和广告公司合作做出了各类精良的营销落地页，并在各个社交、媒体平台中进行投放。为了更好地获取广告信息，指导投放营销，需要一套管理系统来承接这类营销落地页，用来收集用户的购买行为信息，并进行跟踪、统计、和反馈。
+                  我们和广告公司合作做出了各类精良的营销落地页，并在各个社交、媒体平台中进行投放。为了更好地获取广告信息，指导投放营销，需要一套管理系统来承接这类营销落地页，用来收集用户的购买行为信息，并进行跟踪、统计、和反馈。
                 </p>
                 <p class="card-text">
                   <span>项目成就：</span>

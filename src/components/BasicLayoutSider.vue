@@ -1,9 +1,9 @@
 <template>
   <el-aside class="page-sider">
     <div class="user-info">
-      <!-- <div class="user-avatar">
+      <div class="user-avatar">
         <img class="user-avatar-png" src="@/assets/avatar.jpg" />
-      </div> -->
+      </div>
       <p class="user-name">郑坤锦</p>
       <p class="user-status">Born to Code</p>
     </div>
@@ -39,7 +39,10 @@
       <div class="user-info-text">
         <!-- <p><i class="el-icon-office-building"></i>最近一段工作经历</p> -->
         <p><i class="el-icon-time"></i>时间：2019/5 ～ 至今</p>
-        <p><i class="el-icon-office-building"></i>公司：扎克斯科技（ 广州）有限公司</p>
+        <p>
+          <i class="el-icon-office-building"></i>公司：扎克斯科技（
+          广州）有限公司
+        </p>
         <p><i class="el-icon-postcard"></i>岗位：前端研发工程师</p>
       </div>
     </div>
