@@ -19,7 +19,11 @@
           </li>
           <li>4、熟悉 Git、Github 等流程工具，能迅速融入团队立刻上手开发。</li>
           <li>
-            5、在学习时有做笔记的习惯，善于解决问题，对技术有深厚兴趣，爱折腾。<br />
+            5、熟悉 Node.js Web 基础，可使用 Express、Koa、Knex.js、MySQL
+            搭建项目。
+          </li>
+          <li>
+            6、在学习时有做笔记的习惯，善于解决问题，对技术有深厚兴趣，爱折腾。<br />
             （笔记链接：<a
               target="_blank"
               href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
@@ -150,8 +154,8 @@
                   极客学院落地页开发
                 </h4>
                 <p class="card-text">
-                  <span>项目描述：</span>Toppro
-                  、优课云坊、官网、营销页、活动页、专题页。
+                  <span>项目描述：</span
+                  >官网、营销页、活动页面、专题页面都属于由多个页面组成的展示型静态页面矩阵。官网主要为产品特点的描述，功能多迭代周期长；营销页根据投放效果修改，修改频繁，迭代周期短；活动页针对特定节日，有针对的节日元素及较多的交互；专题页面模版、风格比较统一，结合需要进行主题样式的公共提取。
                 </p>
                 <p class="card-text">
                   <span>项目成就：</span>
