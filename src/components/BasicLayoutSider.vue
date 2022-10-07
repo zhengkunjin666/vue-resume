@@ -31,22 +31,16 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：10～12k</span>
+        <span>期望月薪：14～16k</span>
       </div>
     </div>
     <div class="user-info">
       <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
-        <p><i class="el-icon-office-building"></i>最近一段工作经历</p>
-        <p>时间：2020/5 ～ 至今</p>
-        <p>公司：扎克斯科技（ 广州）有限公司</p>
-        <p>岗位：前端研发工程师</p>
-      </div>
-      <div class="user-info-text">
-        <p><i class="el-icon-office-building"></i>第一段工作经历</p>
-        <p>时间：2019/5 至 2020/5</p>
-        <p>公司：惠州市玛丝菲尔时装制造有限公司</p>
-        <p>岗位：管理培训生</p>
+        <!-- <p><i class="el-icon-office-building"></i>最近一段工作经历</p> -->
+        <p><i class="el-icon-time"></i>时间：2019/5 ～ 至今</p>
+        <p><i class="el-icon-office-building"></i>公司：扎克斯科技（ 广州）有限公司</p>
+        <p><i class="el-icon-postcard"></i>岗位：前端研发工程师</p>
       </div>
     </div>
   </el-aside>
