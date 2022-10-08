@@ -37,7 +37,6 @@
     <div class="user-info">
       <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
-        <!-- <p><i class="el-icon-office-building"></i>最近一段工作经历</p> -->
         <p><i class="el-icon-time"></i>时间：2019/5 ～ 至今</p>
         <p>
           <i class="el-icon-office-building"></i>公司：扎克斯科技（
@@ -88,6 +87,8 @@ export default {
     .user-avatar-png {
       display: block;
       width: 110px;
+      height: 110px;
+      border-radius: 50%;
       margin: 0 auto 20px;
       box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
       background-color: #fff;

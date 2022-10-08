@@ -1,8 +1,6 @@
 <template>
   <div class="home-page">
     <div class="user-section">
-      <!-- <el-row :gutter="40">
-        <el-col :lg="15"> -->
       <div class="grid-content">
         <h3 class="sub-title">能力简介</h3>
         <ul class="user-power">
@@ -32,8 +30,6 @@
           </li>
         </ul>
       </div>
-      <!-- </el-col>
-        <el-col :lg="12"> -->
       <div class="grid-content">
         <h3 class="sub-title">技能清单</h3>
         <ul class="user-power">
@@ -74,8 +70,6 @@
           </li>
         </ul>
       </div>
-      <!-- </el-col>
-      </el-row> -->
     </div>
     <div class="work-section">
       <h3 class="sub-title">项目经验</h3>
@@ -86,8 +80,6 @@
             timestamp="在扎克斯科技（ 广州）有限公司时期负责项目。"
             placement="top"
           >
-            <!-- <el-row :gutter="40">
-              <el-col :lg="12"> -->
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
@@ -112,8 +104,6 @@
                 </p>
               </el-card>
             </div>
-            <!-- </el-col>
-              <el-col :lg="12"> -->
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
@@ -146,8 +136,6 @@
                 </p>
               </el-card>
             </div>
-            <!-- </el-col>
-              <el-col :lg="12"> -->
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
@@ -185,16 +173,6 @@
                 </p>
               </el-card>
             </div>
-            <!-- </el-col>
-            </el-row> -->
-          </el-timeline-item>
-          <el-timeline-item
-            type="success"
-            timestamp="在惠州市玛丝菲尔时装制造有限公司时期负责项目。"
-            placement="top"
-          >
-            <!-- <el-row :gutter="40">
-              <el-col :lg="12"> -->
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
@@ -216,16 +194,12 @@
                 </p>
               </el-card>
             </div>
-            <!-- </el-col>
-            </el-row> -->
           </el-timeline-item>
           <el-timeline-item
             type="success"
             timestamp="个人研究的项目。"
             placement="top"
           >
-            <!-- <el-row :gutter="40">
-              <el-col :lg="12"> -->
             <div class="grid-content">
               <el-card>
                 <h4 class="card-title">
@@ -249,8 +223,6 @@
                 </p>
               </el-card>
             </div>
-            <!-- </el-col>
-            </el-row> -->
           </el-timeline-item>
         </el-timeline>
       </div>
