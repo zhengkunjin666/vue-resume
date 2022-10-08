@@ -1,75 +1,66 @@
 <template>
   <div class="home-page">
     <div class="user-section">
-      <div class="grid-content">
-        <h3 class="sub-title">能力简介</h3>
-        <ul class="user-power">
-          <li>
-            1、精通 HTML、 CSS 、JavaScript ，能高效 1 ：1
-            还原设计稿及业务交互。
-          </li>
-          <li>
-            2、掌握 Vue、Ant Design Vue、Element、微信小程序等前端基础框架技术。
-          </li>
-          <li>
-            3、熟悉 Webpack、Gulp、Vue CLI3、Vite
-            等工程化工具，能独立搭建调配项目。
-          </li>
-          <li>4、熟悉 Git、Github 等流程工具，能迅速融入团队立刻上手开发。</li>
-          <li>
-            5、熟悉 Node.js Web 基础，可使用 Express、Koa、Knex.js、MySQL
-            搭建项目。
-          </li>
-          <li>
-            6、在学习时有做笔记的习惯，善于解决问题，对技术有深厚兴趣，爱折腾。<br />
-            笔记链接：<a
-              target="_blank"
-              href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
-              >https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="grid-content">
-        <h3 class="sub-title">技能清单</h3>
-        <ul class="user-power">
-          <li>
-            Web开发：
-            <el-tag size="small">HTML</el-tag>
-            <el-tag size="small">CSS</el-tag>
-            <el-tag size="small" type="danger">JavaScript</el-tag>
-          </li>
-          <li>
-            Web框架：
-            <el-tag size="small" type="danger">Node.js</el-tag>
-            <el-tag size="small">Express</el-tag>
-            <el-tag size="small">Koa</el-tag>
-          </li>
-          <li>
-            前端框架：
-            <el-tag size="small" type="danger">Vue.js</el-tag>
-            <el-tag size="small">Ant Design Vue</el-tag>
-            <el-tag size="small">Element UI</el-tag>
-            <el-tag size="small" type="danger">微信小程序</el-tag>
-          </li>
-          <li>
-            前端工具：
-            <el-tag size="small">Webpack</el-tag>
-            <el-tag size="small">Gulp</el-tag>
-            <el-tag size="small">Vue CLI3</el-tag>
-            <el-tag size="small">Vite</el-tag>
-          </li>
-          <li>
-            数据存储：
-            <el-tag size="small">MySQL</el-tag>
-          </li>
-          <li>
-            版本管理：
-            <el-tag size="small">Git</el-tag>
-            <el-tag size="small">Github</el-tag>
-          </li>
-        </ul>
-      </div>
+      <el-row :gutter="100">
+        <el-col :lg="12">
+          <div class="grid-content">
+            <h3 class="sub-title">能力简介</h3>
+            <p>
+              3 年开发经验。精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant Design
+              Vue、Element、微信小程序等前端基 础框架技术，熟悉Gulp、Vue CLI3、Vite
+              等工程化工具，拥有 Node.js、Serverless 后端开发能力，熟悉前后端及数
+              据交互的全干工程师。<br />
+              本人笔记链接：<a
+                target="_blank"
+                href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
+                >https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd</a
+              >
+            </p>
+          </div>
+        </el-col>
+        <el-col :lg="12">
+          <div class="grid-content">
+            <h3 class="sub-title">技能清单</h3>
+            <ul class="user-power">
+              <li>
+                Web开发：
+                <el-tag size="small">HTML</el-tag>
+                <el-tag size="small">CSS</el-tag>
+                <el-tag size="small" type="danger">JavaScript</el-tag>
+              </li>
+              <li>
+                Web框架：
+                <el-tag size="small" type="danger">Node.js</el-tag>
+                <el-tag size="small">Express</el-tag>
+                <el-tag size="small">Koa</el-tag>
+              </li>
+              <li>
+                前端框架：
+                <el-tag size="small" type="danger">Vue.js</el-tag>
+                <el-tag size="small">Ant Design Vue</el-tag>
+                <el-tag size="small">Element UI</el-tag>
+                <el-tag size="small" type="danger">微信小程序</el-tag>
+              </li>
+              <li>
+                前端工具：
+                <el-tag size="small">Webpack</el-tag>
+                <el-tag size="small">Gulp</el-tag>
+                <el-tag size="small">Vue CLI3</el-tag>
+                <el-tag size="small">Vite</el-tag>
+              </li>
+              <li>
+                数据存储：
+                <el-tag size="small">MySQL</el-tag>
+              </li>
+              <li>
+                版本管理：
+                <el-tag size="small">Git</el-tag>
+                <el-tag size="small">Github</el-tag>
+              </li>
+            </ul>
+          </div>
+        </el-col>
+      </el-row>
     </div>
     <div class="work-section">
       <h3 class="sub-title">项目经验</h3>
@@ -138,9 +129,7 @@
             </div>
             <div class="grid-content">
               <el-card>
-                <h4 class="card-title">
-                  极客学院落地页开发
-                </h4>
+                <h4 class="card-title">极客学院落地页开发</h4>
                 <p class="card-text">
                   <span>项目描述：</span
                   >官网、营销页、活动页面、专题页面都属于由多个页面组成的展示型静态页面矩阵。官网主要为产品特点的描述，功能多迭代周期长；营销页根据投放效果修改，修改频繁，迭代周期短；活动页针对特定节日，有针对的节日元素及较多的交互；专题页面模版、风格比较统一，结合需要进行主题样式的公共提取。
@@ -175,9 +164,7 @@
             </div>
             <div class="grid-content">
               <el-card>
-                <h4 class="card-title">
-                  CRM 客户管理系统
-                </h4>
+                <h4 class="card-title">CRM 客户管理系统</h4>
                 <p class="card-text">
                   <span>项目描述：</span>
                   我们和广告公司合作做出了各类精良的营销落地页，并在各个社交、媒体平台中进行投放。为了更好地获取广告信息，指导投放营销，需要一套管理系统来承接这类营销落地页，用来收集用户的购买行为信息，并进行跟踪、统计、和反馈。
@@ -235,7 +222,7 @@ export default {
   data() {
     return {};
   },
-  components: {}
+  components: {},
 };
 </script>
 
