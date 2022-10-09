@@ -6,10 +6,10 @@
           <div class="grid-content">
             <h3 class="sub-title">能力简介</h3>
             <p>
-              3 年开发经验。精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant Design
-              Vue、Element、微信小程序等前端基 础框架技术，熟悉Gulp、Vue CLI3、Vite
-              等工程化工具，拥有 Node.js、Serverless 后端开发能力，熟悉前后端及数
-              据交互的全干工程师。<br />
+              3 年开发经验。精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant
+              Design Vue、Element、微信小程序等前端基础框架技术，熟悉Gulp、Vue
+              CLI3、Vite 等工程化工具，拥有 Node.js、Serverless
+              后端开发能力，是一位熟悉前后端及数据交互的全干工程师。<br />
               本人笔记链接：<a
                 target="_blank"
                 href="https://ixvmdewga7.feishu.cn/wiki/wikcnNkpPfcVKe1Z3JboJVKphwd"
@@ -120,9 +120,10 @@
                   单点登录相关知识，利用二级域名中的项目可以访问根域的 cookie
                   实现，实现微信、手机号登录模式的动态切换，掌握微信登录 oauth
                   相关流程。<br />
-                  3、通过重构主站前台项目，实现视频课、技能测评核心业务模块的前端交互。通过重构学习中台项目，掌握音视频的基本
-                  API 实现按上次记录播放，拖拽、暂停、按频发送播放记录。<br />
-                  4、通过重构管理后台项目，掌握标准化的管理后台布局
+                  3、通过重构主站前台项目，实现视频课、技能测评核心业务模块的前端交互。<br />
+                  4、通过重构学习中台项目，掌握音视频的基本 API
+                  实现按上次记录播放，拖拽、暂停、按频发送播放记录。<br />
+                  5、通过重构管理后台项目，掌握标准化的管理后台布局
                   UI、高扩展性路由精细化权限设计，能高效完成后台各业务数据的表格查看、表单编辑、删除确认业务逻辑。
                 </p>
               </el-card>
