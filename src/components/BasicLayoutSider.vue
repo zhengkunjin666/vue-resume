@@ -37,7 +37,7 @@
     <div class="user-info">
       <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
-        <p><i class="el-icon-time"></i>时间：2019/5 ～ 至今</p>
+        <p><i class="el-icon-time"></i>时间：2019/5 ～ 2022/10</p>
         <p>
           <i class="el-icon-office-building"></i>公司：扎克斯科技（
           广州）有限公司

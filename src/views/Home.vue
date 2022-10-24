@@ -223,7 +223,7 @@ export default {
   data() {
     return {};
   },
-  components: {},
+  components: {}
 };
 </script>
 
