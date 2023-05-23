@@ -6,7 +6,7 @@
           <div class="grid-content">
             <h3 class="sub-title">能力简介</h3>
             <p>
-              3 年开发经验。精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant
+              4 年开发经验。精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant
               Design Vue、Element、微信小程序等前端基础框架技术，熟悉Gulp、Vue
               CLI3、Vite 等工程化工具，拥有 Node.js、Serverless
               后端开发能力，是一位熟悉前后端及数据交互的全干工程师。<br />
@@ -66,6 +66,40 @@
       <h3 class="sub-title">项目经验</h3>
       <div class="block">
         <el-timeline>
+          <el-timeline-item
+            type="success"
+            timestamp="在深圳市德科信息技术有限公司广州分公司时期负责珠江水利委员会珠江水利科学研究院的项目。"
+            placement="top"
+          >
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">深圳市水土保持信息化建设项目 （<a
+                    target="_blank"
+                    href="http://120.78.176.150:8888/szsb/#/project"
+                    >http://120.78.176.150:8888/szsb/#/project</a
+                  >
+                  测试环境 ）</h4>
+                <p class="card-text">
+                  <span>项目描述：</span
+                  >通过水土保持场景，为生产建设项目水土保持监管、水土流失监测预警提供支撑，助力水土保持全链条监管。
+                  充分利用智慧水利数据底板提供的基础数据资源，主要包括高分卫星遥感影像、部分区域的无人机遥感影像、DEM构建的三
+                  维模型等。此外，通过智慧水利数据底板，接入跨行业共享的土地利用数据、生态红线、雨情监测与预报等数据资源。
+                  实现深圳市水务局、各区水务局之间数据交换功能，推进数据的共享和综合开发利用，实现水土保持数据共享和互联互通，
+                  增强信息服务能力。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、项目中使用Vue3.0 Composition API、Vite、Vuex、Apache
+                  ECharts 可视化图表库、Element Plus组件库等进行项目的搭建。<br />
+                  2、利用网址携带的token或access_token实现单点登录。<br />
+                  3、使用地图接口和小程序的地图组件实现数据与地图的交互，更直观的展示数据。<br />
+                  4、使用海康WEB播放器和视频播放器两种插件，实现不同播放设备的摄像头监控视频以及多个视频的播放。<br />
+                  5、实现一张图、监管管理、黄泥水溯源、辅助支持等核心业务模块的前端交互。<br />
+                  6、完成标准化的系统管理布局UI设计，高效完成后台各业务数据的表格查看、表单编辑、删除确认业务逻辑。
+                </p>
+              </el-card>
+            </div>
+          </el-timeline-item>
           <el-timeline-item
             type="success"
             timestamp="在扎克斯科技（ 广州）有限公司时期负责项目。"
@@ -223,13 +257,13 @@ export default {
   data() {
     return {};
   },
-  components: {}
+  components: {},
 };
 </script>
 
 <style type="text/css" lang="less" scoped>
 .home-page {
-  padding: 40px;
+  padding: 40px 50px 0px;
 
   .sub-title {
     font-size: 18px;

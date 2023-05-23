@@ -34,9 +34,28 @@
         <span>期望月薪：14～16k</span>
       </div>
     </div>
+    <!-- <div class="user-info">
+      <div class="user-info-title">工作经历1</div>
+      <div class="user-info-text">
+        <p><i class="el-icon-time"></i>时间：2019/5 ～ 2022/10</p>
+        <p>
+          <i class="el-icon-office-building"></i>公司：扎克斯科技（
+          广州）有限公司
+        </p>
+        <p><i class="el-icon-postcard"></i>岗位：前端研发工程师</p>
+      </div>
+    </div> -->
     <div class="user-info">
       <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
+        <p><i class="el-icon-time"></i>时间：2022/11 ～ 至今</p>
+        <p class="flex">
+          <i class="el-icon-office-building"></i>
+          <span class="nowrap" title="深圳市德科信息技术有限公司广州分公司">公司：深圳市德科信息技术有限公司广州分公司</span>
+        </p>
+        <p><i class="el-icon-postcard"></i>岗位：软件工程师（前端）</p>
+      </div>
+      <div class="user-info-text two">
         <p><i class="el-icon-time"></i>时间：2019/5 ～ 2022/10</p>
         <p>
           <i class="el-icon-office-building"></i>公司：扎克斯科技（
@@ -62,10 +81,9 @@ export default {
   transition: all 0.2s ease;
   width: 350px !important;
   color: #fff;
-  padding: 40px;
-  padding-top: 20px;
+  padding: 10px 40px;
   .user-info {
-    margin: 40px 0;
+    margin: 20px 0;
     .user-info-title {
       font-size: 16px;
       font-weight: 600;
@@ -81,7 +99,24 @@ export default {
       span {
         vertical-align: middle;
       }
+      .flex {
+        display: flex;
+        align-items: center;
+      }
+      .nowrap {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
     }
+    .user-info-text.two {
+      margin-top: 10px;
+    }
+  }
+  .user-info:last-child {
+    margin-bottom: 0px;
   }
   .user-avatar {
     .user-avatar-png {
