@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "img/avatar.389ad927.jpg"
   },
   {
-    "revision": "535877f50039c0cb49a6196a5b7517cd",
-    "url": "fonts/element-icons.535877f5.woff"
-  },
-  {
     "revision": "732389ded34cb9c52dd88271f1345af9",
     "url": "fonts/element-icons.732389de.ttf"
+  },
+  {
+    "revision": "535877f50039c0cb49a6196a5b7517cd",
+    "url": "fonts/element-icons.535877f5.woff"
   },
   {
     "revision": "0a8ad5a63f31b36b60d9e08be629e959",
