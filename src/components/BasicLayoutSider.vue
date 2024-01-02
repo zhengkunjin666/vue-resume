@@ -19,7 +19,7 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-position"></i>
-        <span>意向城市：广州、深圳</span>
+        <span>意向城市：广州、汕头</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-mobile-phone"></i>
@@ -51,7 +51,9 @@
         <p><i class="el-icon-time"></i>时间：2022/11 ～ 至今</p>
         <p class="flex">
           <i class="el-icon-office-building"></i>
-          <span class="nowrap" title="深圳市德科信息技术有限公司广州分公司">公司：深圳市德科信息技术有限公司广州分公司</span>
+          <span class="nowrap" title="深圳市德科信息技术有限公司广州分公司"
+            >公司：深圳市德科信息技术有限公司广州分公司</span
+          >
         </p>
         <p><i class="el-icon-postcard"></i>岗位：软件工程师（前端）</p>
       </div>
