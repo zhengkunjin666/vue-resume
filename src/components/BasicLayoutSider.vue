@@ -48,7 +48,19 @@
     <div class="user-info">
       <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
-        <p><i class="el-icon-time"></i>时间：2022/11 ～ 至今</p>
+        <p><i class="el-icon-time"></i>时间：2024/02 ～ 至今</p>
+        <p class="flex">
+          <i class="el-icon-office-building"></i>
+          <span
+            class="nowrap"
+            title="申朴信息技术（上海）股份有限公司广州分公司"
+            >公司：申朴信息技术（上海）股份有限公司广州分公司</span
+          >
+        </p>
+        <p><i class="el-icon-postcard"></i>岗位：前端开发工程师</p>
+      </div>
+      <div class="user-info-text one">
+        <p><i class="el-icon-time"></i>时间：2022/11 ～ 2024/01</p>
         <p class="flex">
           <i class="el-icon-office-building"></i>
           <span class="nowrap" title="深圳市德科信息技术有限公司广州分公司"
@@ -113,7 +125,8 @@ export default {
         -webkit-box-orient: vertical;
       }
     }
-    .user-info-text.two {
+    .user-info-text.two,
+    .user-info-text.one {
       margin-top: 10px;
     }
   }

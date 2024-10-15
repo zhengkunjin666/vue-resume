@@ -7,8 +7,8 @@
             <h3 class="sub-title">能力简介</h3>
             <p>
               拥有4 年开发经验，精通 HTML、CSS、JavaScript 基础，掌握 Vue、Ant
-              Design Vue、Element、微信小程序等前端基础框架技术，熟悉 Gulp、Vue
-              CLI3、Vite 等工程化工具，了解 Node.js 和 Serverless
+              Design Vue、Element、微信小程序和 uni-app 等前端基础框架技术，熟悉
+              Gulp、Vue CLI3、Vite 等工程化工具，了解 Node.js 和 Serverless
               等后端开发技术，是一位热爱编程、善于解决问题的前端工程师。<br />
               本人笔记链接：<a
                 target="_blank"
@@ -40,6 +40,7 @@
                 <el-tag size="small">Ant Design Vue</el-tag>
                 <el-tag size="small" type="danger">Element UI</el-tag>
                 <el-tag size="small" type="danger">微信小程序</el-tag>
+                <el-tag size="small" type="danger">uni-app</el-tag>
               </li>
               <li>
                 前端工具：
@@ -67,6 +68,28 @@
       <h3 class="sub-title">项目经验</h3>
       <div class="block">
         <el-timeline>
+          <el-timeline-item
+            type="success"
+            timestamp="在申朴信息技术（上海）股份有限公司广州分公司时期负责项目。"
+            placement="top"
+          >
+            <div class="grid-content">
+              <el-card>
+                <h4 class="card-title">越秀为老服务直通车</h4>
+                <p class="card-text">
+                  <span>项目描述：</span
+                  >越秀为老服务直通车项目包含了政府后台系统、长者饭堂后台系统、以及微信小程序。为老人提供养老机构、社区、上门服务和政策资讯等查询服务；为饭堂提供菜品展示服务以及为老人提供订餐服务等功能；为政府、长者饭堂和老人提供了一个线上服务平台。
+                </p>
+                <p class="card-text">
+                  <span>项目成就：</span>
+                  1、依托RuoYi-Vue框架，高效构建项目，集成vue2、vuex、element-ui、axios等技术，提升开发效率。<br />
+                  2、精确实现后台数据管理，包括表格浏览、表单编辑与删除操作，确保业务流程顺畅。<br />
+                  3、通过echarts实现数据与地图的动态交互，增强数据可视化效果，优化用户体验。<br />
+                  4、采用uni-app框架开发微信小程序关键模块，如首页、政策指南等，促进用户交互与信息获取。
+                </p>
+              </el-card>
+            </div>
+          </el-timeline-item>
           <el-timeline-item
             type="success"
             timestamp="在深圳市德科信息技术有限公司广州分公司时期负责珠江水利委员会珠江水利科学研究院的项目。"
