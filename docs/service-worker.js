@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d37436a3d2d4c96d76a3f8779ab63f6b.js"
+  "precache-manifest.d11d6b65943a0df6705ae4d20f942545.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-resume"});
